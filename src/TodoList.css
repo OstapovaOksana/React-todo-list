@@ -1,0 +1,70 @@
+.todoListMain .header input {
+    text-align: center;
+    padding: 16px 16px 16px 60px;
+    width: 60%;
+    font-size: 24px;
+    border: 3px solid #555;
+    margin: 0px 220px;
+
+}
+
+.todoListMain .theList li {
+    
+    /*display: inline-block;*/
+    color: palevioletred;
+    background-color: bisque;
+    /*padding: 20px;*/
+    margin: 20px 380px;
+    border-radius: 5px;
+    list-style: none;
+    width: 40%;
+    position: relative;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+    padding: 5px 0px 0px 20px;
+    line-height: 1.2;
+}
+
+
+ul.theList{
+    padding:0;
+}
+
+.todoListMain .theList button {
+    border: 0;
+    background:0;
+    color: crimson;
+    padding:0px;
+    margin: 0px 0px 0px 500px;
+    position: relative;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.todoListMain .theList input{
+    font-size:24px;
+}
+.todoListMain .theList .item.done{
+    text-decoration:line-through;
+}
+
+.todoListMain .panelClass {
+    text-align: center;
+}
+
+.todoListMain .panel {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size:24px;
+}
+
+.todoListMain .panelBtn {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius:8px;
+    background-color: lightcoral ;
+    font-size: 24px;
+}
