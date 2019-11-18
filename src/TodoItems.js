@@ -20,10 +20,6 @@ class TodoItems extends Component {
         
     }
 
-    deleteDone(item) {
-        this.props.deleteDone(item);
-    }
-
     toggleTask(item) {
         this.props.toggleTask(item);
     }
